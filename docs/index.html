@@ -2,121 +2,128 @@
 <html lang="zh-CN"><head><meta charset="utf-8">
 <meta name="viewport" content="width=device-width,initial-scale=1">
 <title>LookingIN Arena · S17活动版本</title><style>
-:root{color-scheme:dark;--bg:#0b0e13;--panel:#121720;--line:#27303e;--text:#edf2f7;--muted:#94a3b8;--gold:#d8b463;--bad:#6d2632;--neutral:#303844;--good:#176145}*{box-sizing:border-box}body{margin:0;background:radial-gradient(circle at 15% 0,#22202b 0,transparent 35%),var(--bg);color:var(--text);font-family:Inter,"Segoe UI","Microsoft YaHei",sans-serif}main{max-width:1600px;margin:auto;padding:48px 28px}header{margin-bottom:18px}.eyebrow{color:var(--gold);font-size:12px;font-weight:800;letter-spacing:.2em;margin:0 0 10px}h1{font-family:Georgia,"Noto Serif SC",serif;font-size:clamp(34px,5vw,64px);line-height:1;margin:0 0 22px}.meta{display:flex;gap:10px;flex-wrap:wrap;margin:0}.meta span{border:1px solid var(--line);background:#111720;border-radius:999px;padding:8px 13px;color:#cbd5e1}.generated{color:var(--muted);font-size:13px}nav{display:flex;gap:16px;margin:18px 0}nav a{color:var(--gold);text-decoration:none}nav a:hover{text-decoration:underline}.card{background:rgba(18,23,32,.94);border:1px solid var(--line);border-radius:16px;box-shadow:0 24px 80px #0008;overflow:hidden}.section-title{display:flex;justify-content:space-between;gap:24px;align-items:end;padding:24px 26px;border-bottom:1px solid var(--line)}h2{margin:0 0 6px;font-size:20px}.section-title p{margin:0;color:var(--muted);font-size:13px}.legend{white-space:nowrap;color:var(--muted);font-size:12px}.legend i{display:inline-block;width:10px;height:10px;border-radius:2px;margin:0 5px 0 14px}.legend .bad{background:var(--bad)}.legend .neutral{background:var(--neutral)}.legend .good{background:var(--good)}.table-wrap{overflow:auto}table{border-collapse:separate;border-spacing:0;width:100%;min-width:1000px}th,td{border-right:1px solid var(--line);border-bottom:1px solid var(--line);padding:14px 12px;text-align:center;vertical-align:middle}thead th{position:sticky;top:0;z-index:2;background:#181e28;color:#bdc7d6;font-size:12px;text-transform:uppercase;letter-spacing:.06em}.rank{width:58px}.total{width:135px}.build{min-width:390px;text-align:left}.build-cell{text-align:left;min-width:390px;max-width:620px}.build-entry{display:flex;align-items:center;gap:12px}.build-meta{flex:0 0 auto;min-width:0;display:flex;flex-direction:column;align-items:flex-start;gap:4px}.build-day{flex:0 0 auto;padding:7px 9px;border:1px solid #506078;border-radius:8px;background:#182131;color:var(--gold);font-size:12px;font-weight:800;letter-spacing:.04em;white-space:nowrap}.build-hero{color:#e2e8f0;font-size:12px;line-height:1.45;font-weight:700;overflow-wrap:anywhere}.build-preview{position:relative;flex:1 1 540px;width:100%;max-width:540px;overflow:hidden;border:1px solid #314158;border-radius:10px;background:#080f1d;box-shadow:0 8px 24px #0005}.build-preview img{display:block;width:100%;height:100%;object-fit:contain}.build-fallback{flex:1 1 auto;min-width:0;line-height:1.45;overflow-wrap:anywhere}.heat small{display:block;margin-top:5px;color:#cbd5e1;font-size:11px}.heat{min-width:118px}.heat strong{font-size:17px}.heat.bad{background:color-mix(in srgb,var(--bad) 75%,transparent)}.heat.neutral{background:color-mix(in srgb,var(--neutral) 70%,transparent)}.heat.good{background:color-mix(in srgb,var(--good) 72%,transparent)}.none{color:#566174;background:#0f141c}tbody tr:hover .build-cell{background:#19202b}footer{padding:18px 4px;color:var(--muted);font-size:12px}@media(max-width:720px){main{padding:28px 12px}.section-title{align-items:start;flex-direction:column}.legend{white-space:normal}}
+:root{color-scheme:dark;--bg:#0b0e13;--panel:#121720;--line:#27303e;--text:#edf2f7;--muted:#94a3b8;--gold:#d8b463;--bad:#6d2632;--neutral:#303844;--good:#176145}*{box-sizing:border-box}body{margin:0;background:radial-gradient(circle at 15% 0,#22202b 0,transparent 35%),var(--bg);color:var(--text);font-family:Inter,"Segoe UI","Microsoft YaHei",sans-serif}main{max-width:1600px;margin:auto;padding:48px 28px}header{margin-bottom:18px}.eyebrow{color:var(--gold);font-size:12px;font-weight:800;letter-spacing:.2em;margin:0 0 10px}h1{font-family:Georgia,"Noto Serif SC",serif;font-size:clamp(34px,5vw,64px);line-height:1;margin:0 0 22px}nav{display:flex;gap:16px;margin:18px 0}nav a{color:var(--gold);text-decoration:none}nav a:hover{text-decoration:underline}.card{background:rgba(18,23,32,.94);border:1px solid var(--line);border-radius:16px;box-shadow:0 24px 80px #0008;overflow:hidden}.section-title{display:flex;justify-content:space-between;gap:24px;align-items:end;padding:24px 26px;border-bottom:1px solid var(--line)}h2{margin:0 0 6px;font-size:20px}.legend{white-space:nowrap;color:var(--muted);font-size:12px}.legend i{display:inline-block;width:10px;height:10px;border-radius:2px;margin:0 5px 0 14px}.legend .bad{background:var(--bad)}.legend .neutral{background:var(--neutral)}.legend .good{background:var(--good)}.table-wrap{overflow:auto}table{border-collapse:separate;border-spacing:0;width:100%;min-width:1000px}th,td{border-right:1px solid var(--line);border-bottom:1px solid var(--line);padding:14px 12px;text-align:center;vertical-align:middle}thead th{position:sticky;top:0;z-index:2;background:#181e28;color:#bdc7d6;font-size:12px;text-transform:uppercase;letter-spacing:.06em}.rank{width:58px}.total{width:135px}.build{min-width:390px;text-align:left}.build-cell{text-align:left;min-width:390px;max-width:620px}.build-entry{display:flex;align-items:center;gap:12px}.build-meta{flex:0 0 auto;min-width:0;display:flex;flex-direction:column;align-items:flex-start;gap:4px}.build-day{flex:0 0 auto;padding:7px 9px;border:1px solid #506078;border-radius:8px;background:#182131;color:var(--gold);font-size:12px;font-weight:800;letter-spacing:.04em;white-space:nowrap}.build-hero{font-size:12px;line-height:1.45;font-weight:700;overflow-wrap:anywhere}.build-preview{position:relative;flex:1 1 540px;width:100%;max-width:540px;overflow:hidden;border:1px solid #314158;border-radius:10px;background:#080f1d;box-shadow:0 8px 24px #0005}.build-preview img{display:block;width:100%;height:100%;object-fit:contain}.build-challenge{position:relative;display:flex;align-items:center;gap:5px;color:inherit;text-decoration:none;flex:1 1 540px;min-width:0}.build-challenge:hover{text-decoration:none}.challenge-mark{color:#bdc7d6;font-size:15px;line-height:1}.build-fallback{flex:1 1 auto;min-width:0;line-height:1.45;overflow-wrap:anywhere}.heat{min-width:118px}.heat strong{font-size:17px}.heat.bad{background:color-mix(in srgb,var(--bad) 75%,transparent)}.heat.neutral{background:color-mix(in srgb,var(--neutral) 70%,transparent)}.heat.good{background:color-mix(in srgb,var(--good) 72%,transparent)}.none{color:#566174;background:#0f141c}tbody tr:hover .build-cell{background:#19202b}@media(max-width:720px){main{padding:28px 12px}.section-title{align-items:start;flex-direction:column}.legend{white-space:normal}}
 </style></head><body><main>
 <header><p class="eyebrow">LOOKINGIN ARENA</p><h1>
 S17活动版本</h1>
-<p class="meta"><span>Build 24720155</span><span>41 个有效构筑</span><span>820 组对局</span><span>X=10 · 每个座位 10 次模拟</span><span>16,400 次模拟</span></p>
-<p class="generated">生成于 2026-09-02T12:56:59.4195958Z</p>
 <nav><a href="latest/">最新</a><a href="history/">历史</a></nav>
-<section class="card" data-ranking-mode="formal" data-runs-per-seat="10" data-top-count="10" data-build-id="24720155"><div class="section-title"><div><h2>Top 10 构筑 · 角色对局热力图</h2><p>正式排名：正式胜场、同分组内胜场与构筑摘要。Day 下第二行为 Hero。</p></div><div class="legend"><i class="bad"></i>&lt;45%<i class="neutral"></i>45–55%<i class="good"></i>&gt;55%</div></div>
-<div class="table-wrap"><table><thead><tr><th class="rank">排名</th><th class="total">正式总胜率</th><th class="build">构筑</th>
-<th>Dooley</th>
-<th>Mak</th>
-<th>Pygmalien</th>
-<th>Stelle</th>
-<th>Vanessa</th>
+<section class="card" data-ranking-mode="formal" data-runs-per-seat="10" data-top-count="10" data-build-id="24720155" data-entrant-count="45" data-pair-count="990" data-simulation-count="19800"><div class="section-title"><h2>Top 10 构筑 · 角色对局热力图</h2><div class="legend"><i class="bad"></i>&lt;45%<i class="neutral"></i>45–55%<i class="good"></i>&gt;55%</div></div>
+<div class="table-wrap"><table><thead><tr><th class="rank">排名</th><th class="build">构筑</th><th class="total">总胜率</th>
+<th>VS <span style="color:#55BDF6">Vanessa</span></th>
+<th>VS <span style="color:#F5B942">Pygmalien</span></th>
+<th>VS <span style="color:#66D17A">Dooley</span></th>
+<th>VS <span style="color:#C084FC">Mak</span></th>
+<th>VS <span style="color:#67E8F9">Stelle</span></th>
 </tr></thead><tbody>
-<tr><th class="rank">1</th><td class="heat good"><strong>100.0%</strong><small>正式 · 40–0</small></td>
-<td class="build-cell"><div class="build-entry"><div class="build-meta"><span class="build-day">Day 17</span><strong class="build-hero">Mak</strong></div>
-<div class="build-preview" style="aspect-ratio:1200/140"><img loading="eager" decoding="sync" alt="[火焰] 勿忘死亡 / 月光宝珠 / 飞行药水 / [治愈] 天平 / 沙漏 / [致命] 智者之杖 / 采掘工具" src="assets/builds/198060a42a132c65418e990ca646228f7d0de3b2c9b07766af7c778b0592673d.png"></div>
+<tr><th class="rank">1</th><td class="build-cell"><div class="build-entry"><div class="build-meta"><span class="build-day">Day 17</span><strong class="build-hero" style="color:#C084FC">Mak</strong></div>
+<a class="build-challenge" href="patches/24720155/challenges/top-01-day-17-mak.png" target="_blank" rel="noopener noreferrer" aria-label="打开挑战 PNG"><div class="build-preview" style="aspect-ratio:1200/140"><img loading="eager" decoding="sync" alt="Day 17 Mak 构筑预览" src="assets/builds/198060a42a132c65418e990ca646228f7d0de3b2c9b07766af7c778b0592673d.png"></div>
+<span class="challenge-mark" aria-hidden="true">↗</span></a>
 </div></td>
-<td class="heat good" title="对手 20；正式 20-0；每座位 10 次；模拟 100.0%"><strong>100.0%</strong><small>模拟 · 20–0</small></td>
-<td class="heat good" title="对手 5；正式 5-0；每座位 10 次；模拟 84.0%"><strong>84.0%</strong><small>模拟 · 5–0</small></td>
-<td class="heat good" title="对手 5；正式 5-0；每座位 10 次；模拟 100.0%"><strong>100.0%</strong><small>模拟 · 5–0</small></td>
-<td class="heat good" title="对手 4；正式 4-0；每座位 10 次；模拟 100.0%"><strong>100.0%</strong><small>模拟 · 4–0</small></td>
-<td class="heat good" title="对手 6；正式 6-0；每座位 10 次；模拟 100.0%"><strong>100.0%</strong><small>模拟 · 6–0</small></td>
+<td class="heat good"><strong>100.0%</strong></td>
+<td class="heat good"><strong>100.0%</strong></td>
+<td class="heat good"><strong>100.0%</strong></td>
+<td class="heat good"><strong>100.0%</strong></td>
+<td class="heat good"><strong>100.0%</strong></td>
+<td class="heat good"><strong>100.0%</strong></td>
 </tr>
-<tr><th class="rank">2</th><td class="heat good"><strong>97.5%</strong><small>正式 · 39–1</small></td>
-<td class="build-cell"><div class="build-entry"><div class="build-meta"><span class="build-day">Day 16</span><strong class="build-hero">Pygmalien</strong></div>
-<div class="build-preview" style="aspect-ratio:1200/178"><img loading="eager" decoding="sync" alt="[冰霜] 直播设备 / 模型船 / [治愈] 贾巴利匕首 / 留声机 / [疾速] 小圆猪板" src="assets/builds/a45d65545ac7797a559b6f657a75f7aaf788d4fceb614e1ded82d0dcb62525d2.png"></div>
+<tr><th class="rank">2</th><td class="build-cell"><div class="build-entry"><div class="build-meta"><span class="build-day">Day 16</span><strong class="build-hero" style="color:#F5B942">Pygmalien</strong></div>
+<a class="build-challenge" href="patches/24720155/challenges/top-02-day-16-pygmalien.png" target="_blank" rel="noopener noreferrer" aria-label="打开挑战 PNG"><div class="build-preview" style="aspect-ratio:1200/178"><img loading="eager" decoding="sync" alt="Day 16 Pygmalien 构筑预览" src="assets/builds/a45d65545ac7797a559b6f657a75f7aaf788d4fceb614e1ded82d0dcb62525d2.png"></div>
+<span class="challenge-mark" aria-hidden="true">↗</span></a>
 </div></td>
-<td class="heat good" title="对手 20；正式 20-0；每座位 10 次；模拟 97.5%"><strong>97.5%</strong><small>模拟 · 20–0</small></td>
-<td class="heat neutral" title="对手 6；正式 5-1；每座位 10 次；模拟 55.0%"><strong>55.0%</strong><small>模拟 · 5–1</small></td>
-<td class="heat good" title="对手 4；正式 4-0；每座位 10 次；模拟 100.0%"><strong>100.0%</strong><small>模拟 · 4–0</small></td>
-<td class="heat good" title="对手 4；正式 4-0；每座位 10 次；模拟 100.0%"><strong>100.0%</strong><small>模拟 · 4–0</small></td>
-<td class="heat good" title="对手 6；正式 6-0；每座位 10 次；模拟 100.0%"><strong>100.0%</strong><small>模拟 · 6–0</small></td>
+<td class="heat good"><strong>97.7%</strong></td>
+<td class="heat good"><strong>100.0%</strong></td>
+<td class="heat good"><strong>100.0%</strong></td>
+<td class="heat good"><strong>100.0%</strong></td>
+<td class="heat good"><strong>80.0%</strong></td>
+<td class="heat good"><strong>100.0%</strong></td>
 </tr>
-<tr><th class="rank">3</th><td class="heat good"><strong>92.5%</strong><small>正式 · 37–3</small></td>
-<td class="build-cell"><div class="build-entry"><div class="build-meta"><span class="build-day">Day 14</span><strong class="build-hero">Mak</strong></div>
-<div class="build-preview" style="aspect-ratio:1200/157"><img loading="eager" decoding="sync" alt="[火焰] 勿忘死亡 / 飞行药水 / 月光宝珠 / 天平 / 沙漏 / [致命] 智者之杖 / 采掘工具" src="assets/builds/9c92fc14aa9e48096306168b3ec51725057d4eceb01052a90628741dadca7d27.png"></div>
+<tr><th class="rank">3</th><td class="build-cell"><div class="build-entry"><div class="build-meta"><span class="build-day">Day 16</span><strong class="build-hero" style="color:#F5B942">Pygmalien</strong></div>
+<a class="build-challenge" href="patches/24720155/challenges/top-03-day-16-pygmalien.png" target="_blank" rel="noopener noreferrer" aria-label="打开挑战 PNG"><div class="build-preview" style="aspect-ratio:1200/188"><img loading="eager" decoding="sync" alt="Day 16 Pygmalien 构筑预览" src="assets/builds/4e849f5e6a705387393fe12c54e33afbfae3fc498861684ef3815b12750e434a.png"></div>
+<span class="challenge-mark" aria-hidden="true">↗</span></a>
 </div></td>
-<td class="heat good" title="对手 20；正式 20-0；每座位 10 次；模拟 99.5%"><strong>99.5%</strong><small>模拟 · 20–0</small></td>
-<td class="heat good" title="对手 5；正式 3-2；每座位 10 次；模拟 72.0%"><strong>72.0%</strong><small>模拟 · 3–2</small></td>
-<td class="heat good" title="对手 5；正式 4-1；每座位 10 次；模拟 96.0%"><strong>96.0%</strong><small>模拟 · 4–1</small></td>
-<td class="heat good" title="对手 4；正式 4-0；每座位 10 次；模拟 100.0%"><strong>100.0%</strong><small>模拟 · 4–0</small></td>
-<td class="heat good" title="对手 6；正式 6-0；每座位 10 次；模拟 100.0%"><strong>100.0%</strong><small>模拟 · 6–0</small></td>
+<td class="heat good"><strong>95.5%</strong></td>
+<td class="heat good"><strong>100.0%</strong></td>
+<td class="heat good"><strong>83.3%</strong></td>
+<td class="heat good"><strong>100.0%</strong></td>
+<td class="heat good"><strong>80.0%</strong></td>
+<td class="heat good"><strong>100.0%</strong></td>
 </tr>
-<tr><th class="rank">4</th><td class="heat good"><strong>92.5%</strong><small>正式 · 37–3</small></td>
-<td class="build-cell"><div class="build-entry"><div class="build-meta"><span class="build-day">Day 16</span><strong class="build-hero">Pygmalien</strong></div>
-<div class="build-preview" style="aspect-ratio:1200/188"><img loading="eager" decoding="sync" alt="“营业中”标牌 / [剧毒] 纺织品 / [辉光] 高级红色小圆猪 / [治愈] 留声机 / 直播设备 / 徽印戒指" src="assets/builds/4e849f5e6a705387393fe12c54e33afbfae3fc498861684ef3815b12750e434a.png"></div>
+<tr><th class="rank">4</th><td class="build-cell"><div class="build-entry"><div class="build-meta"><span class="build-day">Day 17</span><strong class="build-hero" style="color:#F5B942">Pygmalien</strong></div>
+<a class="build-challenge" href="patches/24720155/challenges/top-04-day-17-pygmalien.png" target="_blank" rel="noopener noreferrer" aria-label="打开挑战 PNG"><div class="build-preview" style="aspect-ratio:1200/153"><img loading="eager" decoding="sync" alt="Day 17 Pygmalien 构筑预览" src="assets/builds/e6cb9effe9ae186fc71d0a183d7a48f9ee5fd0216bf3632077fc633c56a2d89c.png"></div>
+<span class="challenge-mark" aria-hidden="true">↗</span></a>
 </div></td>
-<td class="heat good" title="对手 20；正式 20-0；每座位 10 次；模拟 100.0%"><strong>100.0%</strong><small>模拟 · 20–0</small></td>
-<td class="heat good" title="对手 6；正式 4-2；每座位 10 次；模拟 66.7%"><strong>66.7%</strong><small>模拟 · 4–2</small></td>
-<td class="heat good" title="对手 4；正式 3-1；每座位 10 次；模拟 75.0%"><strong>75.0%</strong><small>模拟 · 3–1</small></td>
-<td class="heat good" title="对手 4；正式 4-0；每座位 10 次；模拟 100.0%"><strong>100.0%</strong><small>模拟 · 4–0</small></td>
-<td class="heat good" title="对手 6；正式 6-0；每座位 10 次；模拟 100.0%"><strong>100.0%</strong><small>模拟 · 6–0</small></td>
+<td class="heat good"><strong>93.2%</strong></td>
+<td class="heat good"><strong>100.0%</strong></td>
+<td class="heat good"><strong>66.7%</strong></td>
+<td class="heat good"><strong>100.0%</strong></td>
+<td class="heat good"><strong>80.0%</strong></td>
+<td class="heat good"><strong>100.0%</strong></td>
 </tr>
-<tr><th class="rank">5</th><td class="heat good"><strong>90.0%</strong><small>正式 · 36–4</small></td>
-<td class="build-cell"><div class="build-entry"><div class="build-meta"><span class="build-day">Day 17</span><strong class="build-hero">Pygmalien</strong></div>
-<div class="build-preview" style="aspect-ratio:1200/153"><img loading="eager" decoding="sync" alt="“营业中”标牌 / [沉重] 算盘 / [辉光] 摩天大楼 / 露台 / [疾速] 陷阱装置" src="assets/builds/e6cb9effe9ae186fc71d0a183d7a48f9ee5fd0216bf3632077fc633c56a2d89c.png"></div>
+<tr><th class="rank">5</th><td class="build-cell"><div class="build-entry"><div class="build-meta"><span class="build-day">Day 13</span><strong class="build-hero" style="color:#F5B942">Pygmalien</strong></div>
+<a class="build-challenge" href="patches/24720155/challenges/top-05-day-13-pygmalien.png" target="_blank" rel="noopener noreferrer" aria-label="打开挑战 PNG"><div class="build-preview" style="aspect-ratio:1200/148"><img loading="eager" decoding="sync" alt="Day 13 Pygmalien 构筑预览" src="assets/builds/d14e2bcd9a185f77d4e8d64f970c1c7139d60284f5bdcd0685096e939c178e55.png"></div>
+<span class="challenge-mark" aria-hidden="true">↗</span></a>
 </div></td>
-<td class="heat good" title="对手 20；正式 20-0；每座位 10 次；模拟 100.0%"><strong>100.0%</strong><small>模拟 · 20–0</small></td>
-<td class="heat good" title="对手 6；正式 4-2；每座位 10 次；模拟 68.3%"><strong>68.3%</strong><small>模拟 · 4–2</small></td>
-<td class="heat neutral" title="对手 4；正式 2-2；每座位 10 次；模拟 50.0%"><strong>50.0%</strong><small>模拟 · 2–2</small></td>
-<td class="heat good" title="对手 4；正式 4-0；每座位 10 次；模拟 100.0%"><strong>100.0%</strong><small>模拟 · 4–0</small></td>
-<td class="heat good" title="对手 6；正式 6-0；每座位 10 次；模拟 100.0%"><strong>100.0%</strong><small>模拟 · 6–0</small></td>
+<td class="heat good"><strong>86.4%</strong></td>
+<td class="heat good"><strong>87.5%</strong></td>
+<td class="heat neutral"><strong>50.0%</strong></td>
+<td class="heat good"><strong>100.0%</strong></td>
+<td class="heat good"><strong>60.0%</strong></td>
+<td class="heat good"><strong>100.0%</strong></td>
 </tr>
-<tr><th class="rank">6</th><td class="heat good"><strong>82.5%</strong><small>正式 · 33–7</small></td>
-<td class="build-cell"><div class="build-entry"><div class="build-meta"><span class="build-day">Day 13</span><strong class="build-hero">Mak</strong></div>
-<div class="build-preview" style="aspect-ratio:1200/180"><img loading="eager" decoding="sync" alt="[护盾] 大气采样仪 / [闪亮] 魂石 / [闪亮] 魂石 / [辉光] 飞行药水 / 沸腾烧瓶 / [辉光] 图书馆" src="assets/builds/553616bd3ba17e2a39553ceb9e2f9ae2491ef71e23a017cdc565e3726d5448c3.png"></div>
+<tr><th class="rank">6</th><td class="build-cell"><div class="build-entry"><div class="build-meta"><span class="build-day">Day 13</span><strong class="build-hero" style="color:#C084FC">Mak</strong></div>
+<a class="build-challenge" href="patches/24720155/challenges/top-06-day-13-mak.png" target="_blank" rel="noopener noreferrer" aria-label="打开挑战 PNG"><div class="build-preview" style="aspect-ratio:1200/180"><img loading="eager" decoding="sync" alt="Day 13 Mak 构筑预览" src="assets/builds/553616bd3ba17e2a39553ceb9e2f9ae2491ef71e23a017cdc565e3726d5448c3.png"></div>
+<span class="challenge-mark" aria-hidden="true">↗</span></a>
 </div></td>
-<td class="heat good" title="对手 20；正式 18-2；每座位 10 次；模拟 93.0%"><strong>93.0%</strong><small>模拟 · 18–2</small></td>
-<td class="heat good" title="对手 5；正式 4-1；每座位 10 次；模拟 84.0%"><strong>84.0%</strong><small>模拟 · 4–1</small></td>
-<td class="heat neutral" title="对手 5；正式 2-3；每座位 10 次；模拟 46.0%"><strong>46.0%</strong><small>模拟 · 2–3</small></td>
-<td class="heat good" title="对手 4；正式 3-1；每座位 10 次；模拟 67.5%"><strong>67.5%</strong><small>模拟 · 3–1</small></td>
-<td class="heat good" title="对手 6；正式 6-0；每座位 10 次；模拟 100.0%"><strong>100.0%</strong><small>模拟 · 6–0</small></td>
+<td class="heat good"><strong>84.1%</strong></td>
+<td class="heat good"><strong>100.0%</strong></td>
+<td class="heat good"><strong>57.1%</strong></td>
+<td class="heat good"><strong>90.5%</strong></td>
+<td class="heat good"><strong>75.0%</strong></td>
+<td class="heat good"><strong>75.0%</strong></td>
 </tr>
-<tr><th class="rank">7</th><td class="heat good"><strong>82.5%</strong><small>正式 · 33–7</small></td>
-<td class="build-cell"><div class="build-entry"><div class="build-meta"><span class="build-day">Day 13</span><strong class="build-hero">Pygmalien</strong></div>
-<div class="build-preview" style="aspect-ratio:1200/148"><img loading="eager" decoding="sync" alt="[治愈] 摩空大楼 / 算盘 / [致命] 算盘 / [火焰] 摩天大楼 / [辉光] 留声机" src="assets/builds/d14e2bcd9a185f77d4e8d64f970c1c7139d60284f5bdcd0685096e939c178e55.png"></div>
+<tr><th class="rank">7</th><td class="build-cell"><div class="build-entry"><div class="build-meta"><span class="build-day">Day 15</span><strong class="build-hero" style="color:#66D17A">Dooley</strong></div>
+<a class="build-challenge" href="patches/24720155/challenges/top-07-day-15-dooley.png" target="_blank" rel="noopener noreferrer" aria-label="打开挑战 PNG"><div class="build-preview" style="aspect-ratio:1200/148"><img loading="eager" decoding="sync" alt="Day 15 Dooley 构筑预览" src="assets/builds/0bc4c8aeedadefaf0a76e63197ce72abd1cda5aa7e37ed1b84c5d0da1954b792.png"></div>
+<span class="challenge-mark" aria-hidden="true">↗</span></a>
 </div></td>
-<td class="heat good" title="对手 20；正式 20-0；每座位 10 次；模拟 97.0%"><strong>97.0%</strong><small>模拟 · 20–0</small></td>
-<td class="heat good" title="对手 6；正式 3-3；每座位 10 次；模拟 58.3%"><strong>58.3%</strong><small>模拟 · 3–3</small></td>
-<td class="heat bad" title="对手 4；正式 1-3；每座位 10 次；模拟 22.5%"><strong>22.5%</strong><small>模拟 · 1–3</small></td>
-<td class="heat good" title="对手 4；正式 4-0；每座位 10 次；模拟 100.0%"><strong>100.0%</strong><small>模拟 · 4–0</small></td>
-<td class="heat good" title="对手 6；正式 5-1；每座位 10 次；模拟 83.3%"><strong>83.3%</strong><small>模拟 · 5–1</small></td>
+<td class="heat good"><strong>84.1%</strong></td>
+<td class="heat good"><strong>87.5%</strong></td>
+<td class="heat bad"><strong>42.9%</strong></td>
+<td class="heat good"><strong>100.0%</strong></td>
+<td class="heat good"><strong>60.0%</strong></td>
+<td class="heat good"><strong>100.0%</strong></td>
 </tr>
-<tr><th class="rank">8</th><td class="heat good"><strong>82.5%</strong><small>正式 · 33–7</small></td>
-<td class="build-cell"><div class="build-entry"><div class="build-meta"><span class="build-day">Day 15</span><strong class="build-hero">Dooley</strong></div>
-<div class="build-preview" style="aspect-ratio:1200/148"><img loading="eager" decoding="sync" alt="[冰霜] 劳雷尔堡垒 / [疾速] 全能核心 / [护盾] 遥控装置 / 假发柜 / [辉光] 空调皮埃尔" src="assets/builds/0bc4c8aeedadefaf0a76e63197ce72abd1cda5aa7e37ed1b84c5d0da1954b792.png"></div>
+<tr><th class="rank">8</th><td class="build-cell"><div class="build-entry"><div class="build-meta"><span class="build-day">Day 13</span><strong class="build-hero" style="color:#F5B942">Pygmalien</strong></div>
+<a class="build-challenge" href="patches/24720155/challenges/top-08-day-13-pygmalien.png" target="_blank" rel="noopener noreferrer" aria-label="打开挑战 PNG"><div class="build-preview" style="aspect-ratio:1200/158"><img loading="eager" decoding="sync" alt="Day 13 Pygmalien 构筑预览" src="assets/builds/c901055897038b7a00fd2f1be8f377b5eb4bed082100ce0bb8d3874948ab6272.png"></div>
+<span class="challenge-mark" aria-hidden="true">↗</span></a>
 </div></td>
-<td class="heat good" title="对手 19；正式 19-0；每座位 10 次；模拟 100.0%"><strong>100.0%</strong><small>模拟 · 19–0</small></td>
-<td class="heat neutral" title="对手 6；正式 3-3；每座位 10 次；模拟 51.7%"><strong>51.7%</strong><small>模拟 · 3–3</small></td>
-<td class="heat bad" title="对手 5；正式 1-4；每座位 10 次；模拟 30.0%"><strong>30.0%</strong><small>模拟 · 1–4</small></td>
-<td class="heat good" title="对手 4；正式 4-0；每座位 10 次；模拟 100.0%"><strong>100.0%</strong><small>模拟 · 4–0</small></td>
-<td class="heat good" title="对手 6；正式 6-0；每座位 10 次；模拟 100.0%"><strong>100.0%</strong><small>模拟 · 6–0</small></td>
+<td class="heat good"><strong>79.5%</strong></td>
+<td class="heat good"><strong>100.0%</strong></td>
+<td class="heat bad"><strong>0.0%</strong></td>
+<td class="heat good"><strong>95.2%</strong></td>
+<td class="heat good"><strong>60.0%</strong></td>
+<td class="heat good"><strong>100.0%</strong></td>
 </tr>
-<tr><th class="rank">9</th><td class="heat good"><strong>75.0%</strong><small>正式 · 30–10</small></td>
-<td class="build-cell"><div class="build-entry"><div class="build-meta"><span class="build-day">Day 13</span><strong class="build-hero">Pygmalien</strong></div>
-<div class="build-preview" style="aspect-ratio:1200/180"><img loading="eager" decoding="sync" alt="[治愈] 阿特拉斯之石 / 模型船 / 悠悠球 / Q版时精娃娃 / 蜂巢 / [致命] 小圆猪板" src="assets/builds/92eb6390739416d0f8c977a83845548d20c45609ba212df92d298361384fa3fb.png"></div>
+<tr><th class="rank">9</th><td class="build-cell"><div class="build-entry"><div class="build-meta"><span class="build-day">Day 15</span><strong class="build-hero" style="color:#55BDF6">Vanessa</strong></div>
+<a class="build-challenge" href="patches/24720155/challenges/top-09-day-15-vanessa.png" target="_blank" rel="noopener noreferrer" aria-label="打开挑战 PNG"><div class="build-preview" style="aspect-ratio:1200/147"><img loading="eager" decoding="sync" alt="Day 15 Vanessa 构筑预览" src="assets/builds/0382e55e81914cea6b18ec9590cc590e812bb960fd00867da44a2d4bafca3c92.png"></div>
+<span class="challenge-mark" aria-hidden="true">↗</span></a>
 </div></td>
-<td class="heat good" title="对手 20；正式 17-3；每座位 10 次；模拟 84.5%"><strong>84.5%</strong><small>模拟 · 17–3</small></td>
-<td class="heat neutral" title="对手 6；正式 3-3；每座位 10 次；模拟 50.0%"><strong>50.0%</strong><small>模拟 · 3–3</small></td>
-<td class="heat bad" title="对手 4；正式 0-4；每座位 10 次；模拟 2.5%"><strong>2.5%</strong><small>模拟 · 0–4</small></td>
-<td class="heat good" title="对手 4；正式 4-0；每座位 10 次；模拟 100.0%"><strong>100.0%</strong><small>模拟 · 4–0</small></td>
-<td class="heat good" title="对手 6；正式 6-0；每座位 10 次；模拟 98.3%"><strong>98.3%</strong><small>模拟 · 6–0</small></td>
+<td class="heat good"><strong>77.3%</strong></td>
+<td class="heat good"><strong>71.4%</strong></td>
+<td class="heat bad"><strong>28.6%</strong></td>
+<td class="heat good"><strong>100.0%</strong></td>
+<td class="heat bad"><strong>40.0%</strong></td>
+<td class="heat good"><strong>100.0%</strong></td>
 </tr>
-<tr><th class="rank">10</th><td class="heat good"><strong>72.5%</strong><small>正式 · 29–11</small></td>
-<td class="build-cell"><div class="build-entry"><div class="build-meta"><span class="build-day">Day 14</span><strong class="build-hero">Stelle</strong></div>
-<div class="build-preview" style="aspect-ratio:1200/194"><img loading="eager" decoding="sync" alt="[治愈] 太空激光 / 海拔计 / 液压钳 / [沉重] 螺旋桨 / 铆钉枪 / 飞行单车" src="assets/builds/7a90d023bbf769d60ffa1a65d05554ea933af63ed4af9d31fc7a5414246a9352.png"></div>
+<tr><th class="rank">10</th><td class="build-cell"><div class="build-entry"><div class="build-meta"><span class="build-day">Day 13</span><strong class="build-hero" style="color:#F5B942">Pygmalien</strong></div>
+<a class="build-challenge" href="patches/24720155/challenges/top-10-day-13-pygmalien.png" target="_blank" rel="noopener noreferrer" aria-label="打开挑战 PNG"><div class="build-preview" style="aspect-ratio:1200/180"><img loading="eager" decoding="sync" alt="Day 13 Pygmalien 构筑预览" src="assets/builds/92eb6390739416d0f8c977a83845548d20c45609ba212df92d298361384fa3fb.png"></div>
+<span class="challenge-mark" aria-hidden="true">↗</span></a>
 </div></td>
-<td class="heat good" title="对手 20；正式 17-3；每座位 10 次；模拟 82.0%"><strong>82.0%</strong><small>模拟 · 17–3</small></td>
-<td class="heat neutral" title="对手 6；正式 3-3；每座位 10 次；模拟 55.0%"><strong>55.0%</strong><small>模拟 · 3–3</small></td>
-<td class="heat bad" title="对手 5；正式 0-5；每座位 10 次；模拟 0.0%"><strong>0.0%</strong><small>模拟 · 0–5</small></td>
-<td class="heat good" title="对手 3；正式 3-0；每座位 10 次；模拟 96.7%"><strong>96.7%</strong><small>模拟 · 3–0</small></td>
-<td class="heat good" title="对手 6；正式 6-0；每座位 10 次；模拟 90.0%"><strong>90.0%</strong><small>模拟 · 6–0</small></td>
+<td class="heat good"><strong>77.3%</strong></td>
+<td class="heat good"><strong>87.5%</strong></td>
+<td class="heat bad"><strong>33.3%</strong></td>
+<td class="heat good"><strong>85.7%</strong></td>
+<td class="heat good"><strong>60.0%</strong></td>
+<td class="heat good"><strong>100.0%</strong></td>
 </tr>
 </tbody></table></div></section>
-<footer>本页为 LookingIN Arena 的正式赛事快照；图片仅展示可信 PreviewRegion 的清洗副本。</footer>
 </main></body></html>
