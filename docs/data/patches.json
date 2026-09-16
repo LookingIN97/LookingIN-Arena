@@ -22,7 +22,7 @@
       "title": "S18\u4E0A",
       "status": "current",
       "firstPublishedAtUtc": "2026-09-16T06:24:03.9729730Z",
-      "lastUpdatedAtUtc": "2026-09-16T06:24:03.9729730Z",
+      "lastUpdatedAtUtc": "2026-09-16T07:00:31.8020480Z",
       "finalizedAtUtc": null,
       "entrantCount": 333,
       "pairCount": 55278,
@@ -30,6 +30,8 @@
       "rankingMode": "formal",
       "runsPerSeat": 0,
       "topCount": 10,
+      "selection": "lookingin-custom-pvp-tops-v4",
+      "publishedCount": 217,
       "path": "patches/25194946/index.html"
     }
   ]
