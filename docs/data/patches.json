@@ -1,14 +1,14 @@
 {
   "schema": "lookingin-arena-patches-v1",
-  "latestBuildId": "24720155",
+  "latestBuildId": "25194946",
   "patches": [
     {
       "buildId": "24720155",
       "title": "S17\u6D3B\u52A8\u7248\u672C",
-      "status": "current",
+      "status": "final",
       "firstPublishedAtUtc": "2026-09-02T12:56:59.4195958Z",
       "lastUpdatedAtUtc": "2026-09-02T15:48:31.0441177Z",
-      "finalizedAtUtc": null,
+      "finalizedAtUtc": "2026-09-16T06:24:03.9729730Z",
       "entrantCount": 45,
       "pairCount": 990,
       "simulationCount": 19800,
@@ -16,6 +16,21 @@
       "runsPerSeat": 10,
       "topCount": 10,
       "path": "patches/24720155/index.html"
+    },
+    {
+      "buildId": "25194946",
+      "title": "S18\u4E0A",
+      "status": "current",
+      "firstPublishedAtUtc": "2026-09-16T06:24:03.9729730Z",
+      "lastUpdatedAtUtc": "2026-09-16T06:24:03.9729730Z",
+      "finalizedAtUtc": null,
+      "entrantCount": 333,
+      "pairCount": 55278,
+      "simulationCount": 0,
+      "rankingMode": "formal",
+      "runsPerSeat": 0,
+      "topCount": 10,
+      "path": "patches/25194946/index.html"
     }
   ]
 }

@@ -1,0 +1,31 @@
+body.arena-page{scrollbar-color:#465164 var(--bg)}
+body.arena-page ::selection{background:#d8b463;color:#17130b}
+.arena-page .arena-filters{margin-bottom:18px;overflow:visible}
+.arena-page .arena-filters>.section-title{display:flex;align-items:center;justify-content:space-between;gap:20px}
+.arena-page .arena-filter-count{margin:0;color:var(--muted);font-size:13px;font-variant-numeric:tabular-nums;white-space:nowrap}
+.arena-page .arena-filter-count strong{color:var(--text);font-size:18px}
+.arena-page .arena-filter-body{display:flex;align-items:center;flex-wrap:wrap;gap:10px 18px;padding:14px 20px 16px}
+.arena-page .arena-filter-group{display:flex;flex-wrap:wrap;gap:7px}
+.arena-page .arena-filter-group:empty{display:none}
+.arena-page .arena-filter-toggle,.arena-page .arena-filter-reset{min-height:44px;border:1px solid #384354;border-radius:8px;padding:8px 12px;background:#0d1219;color:var(--muted);font:inherit;font-size:13px;font-weight:650;cursor:pointer}
+.arena-page .arena-filter-toggle:hover,.arena-page .arena-filter-reset:hover{border-color:#75859a;color:var(--text);background:#171e29}
+.arena-page .arena-filter-toggle[aria-pressed="true"]{border-color:#b89a54;background:#292313;color:#f7e8bd}
+.arena-page .arena-filter-toggle:focus-visible,.arena-page .arena-filter-reset:focus-visible{outline:3px solid var(--gold);outline-offset:2px}
+.arena-page .arena-filter-reset{margin-left:auto;color:var(--text)}
+.arena-page .arena-filter-empty{margin:0;padding:0 20px 16px;color:var(--muted);font-size:13px}
+.arena-page .ranking-list{--row-height:144px;min-width:820px}
+.arena-page .ranking-row{grid-template-columns:270px minmax(0,1fr);content-visibility:auto;contain-intrinsic-size:auto var(--row-height)}
+.arena-page .build-info{padding:14px 16px;flex-direction:row;justify-content:flex-start;gap:14px;text-align:left}
+.arena-page .build-summary{align-items:flex-start;gap:3px}
+.arena-page .rank{min-width:48px;min-height:44px;font-size:30px}
+.arena-page .medal{width:36px;height:42px}
+.arena-page .build-hero{font-size:19px}
+.arena-page .build-day{font-size:14px}
+.arena-page .total{margin-top:4px}
+.arena-page .total strong{font-size:27px}
+.arena-page .build-challenge:after{content:"打开分享 PNG";position:absolute;right:34px;bottom:9px;padding:3px 7px;border-radius:5px;background:#080d16df;color:#dce5f0;font-size:11px;line-height:1.4}
+.arena-page .challenge-mark{bottom:9px}
+.arena-page .ranking-row[hidden]{display:none}
+@media(max-width:1000px){.arena-page .arena-filter-reset{margin-left:0}.arena-page .ranking-list{min-width:720px}.arena-page .ranking-row{grid-template-columns:220px minmax(0,1fr)}}
+@media(max-width:640px){.arena-page .ranking-scroll{overflow-x:visible}.arena-page .ranking-list{min-width:0}.arena-page .ranking-row{grid-template-columns:1fr;height:auto;min-height:112px;contain-intrinsic-size:auto 240px}.arena-page .build-sidebar{border-right:0}.arena-page .build-info{min-height:112px}.arena-page .build-stage{height:132px;border-top:1px solid var(--line)}.arena-page .build-stage:has(.build-fallback){height:54px}.arena-page .build-fallback{padding:12px 16px;align-items:center}.arena-page .build-fallback div{display:none}.arena-page .build-challenge:after{right:36px}}
+@media(prefers-reduced-motion:reduce){.arena-page *{scroll-behavior:auto!important}}
