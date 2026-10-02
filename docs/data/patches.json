@@ -19,19 +19,19 @@
     },
     {
       "buildId": "25194946",
-      "title": "S18\u4E0A",
+      "title": "S18-H2 Final",
       "status": "current",
       "firstPublishedAtUtc": "2026-09-16T06:24:03.9729730Z",
-      "lastUpdatedAtUtc": "2026-09-16T07:31:36.3032132Z",
+      "lastUpdatedAtUtc": "2026-10-02T06:46:21.5706237Z",
       "finalizedAtUtc": null,
-      "entrantCount": 333,
-      "pairCount": 55278,
+      "entrantCount": 157,
+      "pairCount": 12246,
       "simulationCount": 0,
       "rankingMode": "formal",
       "runsPerSeat": 0,
       "topCount": 10,
-      "selection": "lookingin-custom-pvp-tops-v4",
-      "publishedCount": 217,
+      "selection": "lookingin-custom-pvp-tops-v5",
+      "publishedCount": 145,
       "path": "patches/25194946/index.html"
     }
   ]
